@@ -1,11 +1,12 @@
-//?Destructuring, JavaScript'deki nesneler ve dizilerden verileri çıkarmaya olanak tanıyan bir yapıdır. Aşağıdaki örnekte, bir nesnenin a ve b anahtarlarındaki değerlerini, ayrı değişkenlere atama yapar:
+//! Destructuring, JavaScript'deki nesneler ve dizilerden verileri çıkarmaya olanak tanıyan bir yapıdır. Aşağıdaki örnekte, bir nesnenin a ve b anahtarlarındaki değerlerini, ayrı değişkenlere atama yapar:
 
 const obj = {a: 1, b: 2};
 const {a, b} = obj;
 console.log(a, b); // 1 2
 
 
-// Başka bir örnekte, bir dizinin ilk ve son elemanlarını çıkarmak için destructuring kullanabiliriz:
+//! Başka bir örnekte, bir dizinin ilk ve son elemanlarını çıkarmak için destructuring kullanabiliriz:
+
 const arr = [1, 2, 3, 4];
 const [first, second, ...rest] = arr;
 console.log(first, second, rest); // 1 2 [3, 4]
@@ -19,7 +20,6 @@ function fn({a, b}) {
   
 
 //? Basit değişken ataması:
-
 
 const obj = {a: 1, b: 2};
 const {a, b} = obj;

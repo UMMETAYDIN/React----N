@@ -34,7 +34,7 @@ console.log(yas30Ustu);
 */
 
 
-//?Karakter dizisi filtreleme örneği:
+//?Karakter dizisi filtreleme örneği: vokal = ünlü harfler
 
 let karakterler = ['a', 'b', 'c', 'd', 'e'];
 let vokaller = karakterler.filter(karakter => 'aeıioöuü'.includes(karakter));
